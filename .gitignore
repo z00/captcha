@@ -1,0 +1,15 @@
+.metadata
+target
+*.ppk
+*.pem
+.classpath
+.project
+.settings
+test-output
+transaction.log-a 
+bin
+externalToolBuilders
+*.tmp
+tmp
+temp
+

@@ -16,6 +16,12 @@ Deployment:
 Application is run as a regular process with a main method. Which internally uses embedded Tomcat to listen on port 8080.
 The final artifact is a single Jar file with all dependencies included. It can be run with java -jar captcha-rest-service-0.1.0.jar
 
-Used command: cf push captcha -p captcha-rest-service-0.1.0.jar
+Used command from local dev env to deploy to PWS: cf push captcha -p captcha-rest-service-0.1.0.jar
 
 Travis CI: https://travis-ci.org/z00/captcha
+
+
+Source code TODO: exception handling, docs & comments, better input checking, security, modular methods, etc...
+
+Travis TODO: 
+Use deploy section to deploy build to PWS. Need to download travis CI, and encrypt PWS password in .travis.yml
